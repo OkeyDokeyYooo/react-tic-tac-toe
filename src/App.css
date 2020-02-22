@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.box {
+  width: 10rem;
+  height: 10rem;
+  border: 1px solid black;
+}
+
+.board {
+  width: 31rem;
+  height: 31rem;
+  margin: auto;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box:hover {
+  background: lightblue;
+  cursor: pointer;
+}

@@ -56,3 +56,7 @@
   background: lightblue;
   cursor: pointer;
 }
+
+.piece {
+  font-size: 3rem;
+}
